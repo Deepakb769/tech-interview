@@ -1,0 +1,959 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+.para_vision_mission_1{
+  padding-right: 40px;
+}
+.para_vision_mission_2{
+  padding-right: 60px;
+}
+.item-section {
+  display: flex;
+}
+
+.container-width {
+  width: 90%;
+}
+.tech-logo {
+  width: 30px;
+  height: 30px;
+}
+.main-container {
+  overflow: hidden;
+  *,
+  & {
+    box-sizing: border-box;
+  }
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  width: 100%;
+  height: 326px;
+  margin: 0 auto;
+  background: #e6edf8;
+  overflow: hidden;
+  .about_us_heading_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 100%;
+    margin: 102px 0 0 0;
+    .about_us_heading {
+      color: #2e2e2e;
+      font-family: 'Inter', var(--default-font-family);
+      font-size: 61px;
+      font-weight: 700;
+      line-height: 73.824px;
+    }
+
+    .about_us_heading_underline_image {
+      img {
+        position: relative;
+        bottom: 20px;
+        width: 76%;
+        height: 16px;
+        left: -23px;
+      }
+    }
+    .mobile_view {
+      display: none !important;
+    }
+    .learn-heading {
+      margin-bottom: 38px;
+    }
+    .about_us_heading_text {
+      font-family: "Inter", var(--default-font-family);
+      font-weight: 500;
+      line-height: 28px;
+      margin-top: -20px;
+      font-size: 20px;
+    }
+    .vector {
+      flex-shrink: 0;
+      position: absolute;
+      width: 196.598px;
+      height: 14.947px;
+      top: 65px;
+      left: 278.043px;
+      background: url(./assets/images/a2e25573-31df-4366-ba65-c4610054acef.png)
+        no-repeat center;
+      background-size: cover;
+      z-index: 3;
+    }
+  }
+}
+.achieve-your-goals_page_heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 32px;
+  width: 100%;
+  
+  .achieve-your-goals_page_images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    width: 1013px;
+    margin-top: 38px;
+    .achieve-your-goals {
+      color: #404040;
+      font-family: "Inter", var(--default-font-family);
+      font-size: 61px;
+      font-weight: 700;
+      line-height: 73px;
+    }
+    .achieve_your_goal_underline_image {
+      position: absolute;
+      top: 64px;
+      left: 95px;
+      width: 23%;
+    }
+    .about_achieve_mobile {
+      display: none;
+    }
+    .achieve_your_goal_underline_image_mobile {
+      display: none;
+    }
+    .world-class-training {
+      display: flex;
+      color: #858585;
+      font-family: "Inter", var(--default-font-family);
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 32px;
+      text-align: center;
+    }
+    .world-class-training-mobile {
+      display: none;
+    }
+  }
+}
+.count_card_container {
+  overflow: hidden;
+  *,
+  & {
+    box-sizing: border-box;
+  }
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 18px;
+  width: 1044px;
+  margin: 0 auto;
+  padding: 16px 16px 16px 16px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 27px 0 rgba(122, 121, 121, 0.25);
+  .count_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 19px;
+    position: relative;
+    width: 237px;
+    padding: 24px 24px 24px 24px;
+    border-radius: 20px;
+    .count_card_data {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: nowrap;
+      flex-shrink: 0;
+      gap: 6.472px;
+      position: relative;
+      width: 180px;
+      z-index: 1;
+      .plus {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 38px;
+        color: #011a3f;
+        font-family: "Inter", var(--default-font-family);
+        font-size: 31px;
+        font-weight: 700;
+        line-height: 37.517px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 2;
+      }
+      .trained-individuals {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 28px;
+        color: #545454;
+        font-family: "Inter", var(--default-font-family);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 3;
+      }
+    }
+  }
+  .count_card_data_team_member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 19px;
+    position: relative;
+    width: 240px;
+    padding: 24px 24px 24px 24px;
+    border-radius: 20px;
+    .count_card_data_150 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: nowrap;
+      flex-shrink: 0;
+      gap: 6.472px;
+      position: relative;
+      width: 148px;
+      .plus-5 {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 38px;
+        color: #011a3f;
+        font-family: "Inter", var(--default-font-family);
+        font-size: 31px;
+        font-weight: 700;
+        line-height: 37.517px;
+        text-align: left;
+        white-space: nowrap;
+      }
+      .team-members {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 28px;
+        color: #545454;
+        font-family: "Inter", var(--default-font-family);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: left;
+        white-space: nowrap;
+      }
+    }
+  }
+  .count_card_data_succ_startup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 19px;
+    position: relative;
+    width: 240px;
+    padding: 24px 24px 24px 24px;
+    border-radius: 20px;
+    .count_card_data_5 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: nowrap;
+      flex-shrink: 0;
+      gap: 6.472px;
+      position: relative;
+      width: 191px;
+      .plus-8 {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 38px;
+        color: #011a3f;
+        font-family: "Inter", var(--default-font-family);
+        font-size: 31px;
+        font-weight: 700;
+        line-height: 37.517px;
+        text-align: left;
+        white-space: nowrap;
+      }
+      .successful-startups {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 28px;
+        color: #545454;
+        font-family: "Inter", var(--default-font-family);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: left;
+        white-space: nowrap;
+      }
+    }
+  }
+  .count_card_data_avg_pkg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 19px;
+    position: relative;
+    width: 241px;
+    padding: 24px 24px 24px 24px;
+    border-radius: 20px;
+    .count_card_data_3-11_lacs {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: nowrap;
+      flex-shrink: 0;
+      gap: 6.472px;
+      position: relative;
+      width: 166px;
+      .lacs {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 38px;
+        color: #011a3f;
+        font-family: "Inter", var(--default-font-family);
+        font-size: 31px;
+        font-weight: 700;
+        line-height: 37.517px;
+        text-align: left;
+        white-space: nowrap;
+      }
+      .average-package {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 28px;
+        color: #545454;
+        font-family: "Inter", var(--default-font-family);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: left;
+        white-space: nowrap;
+      }
+    }
+  }
+}
+// learn with us page
+.learn_with_us_page {
+  position: relative;
+  top: 70px;
+  h2 {
+    color: #2e2e2e;
+    font-family: "Inter", var(--default-font-family);
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 73.824px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .learn_with_us_underline {
+    position: absolute;
+    top: 140px;
+    left: 10px;
+  }
+  p {
+    color: #858585;
+    font-family: "Inter", var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  .semi_para {
+    color: #858585;
+    font-family: "Inter", var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  .course_count_desc {
+    padding-left: 0px !important;
+  }
+  .semi_heading {
+    color: #2e2e2e;
+    font-family: "Inter", var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+//our mission and our vision page
+.our_mission_vision_page {
+  .our_vision_our_mission {
+    position: relative;
+    top: 35px;
+    .head_vision_mission_box {
+      padding-left: 25px;
+    }
+    .head_vision_mission {
+      margin-top: 0px;
+    }
+    h2 {
+      color: #2e2e2e;
+      font-family: "Inter", var(--default-font-family);
+      font-size: 61px;
+      font-weight: 700;
+      line-height: 73.824px;
+      text-align: left;
+    }
+    .our_vision_underline {
+      position: absolute;
+      top: 112px;
+    }
+    .our_mission_underline {
+      position: relative;
+      top: -18px;
+    }
+    p {
+      margin-top: 20px;
+      color: #858585;
+      font-family: "Inter", var(--default-font-family);
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 32px;
+    }
+  }
+}
+
+.text-head {
+  padding-top: 64px;
+}
+
+.meet_your_guides_page {
+  h2 {
+    color: #2e2e2e;
+    font-family: "Inter", var(--default-font-family);
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 73.824px;
+    text-align: left;
+  }
+  p {
+    color: #858585;
+    font-family: "Inter", var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+  }
+  
+  .guides_card2 {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-radius: 0 20px 20px 0;
+    .duration_buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-top: 20px;
+      .duration_button {
+        background-color: #fffae9;
+        border: 1px solid #997d16;
+        border-radius: 32px;
+        text-align: center;
+        padding: 0px 10px;
+      }
+      a {
+        text-decoration: none;
+        color: #997d16;
+        font-family: "Inter", var(--default-font-family);
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 2;
+      }
+    }
+    .comment {
+      font-family: Plus Jakarta Sans;
+      font-size: 19px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #2e2e2e;
+    }
+    .technical_expertise {
+       font-family: 'Inter', sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    .technical_expertise_para {
+       font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+}
+.counter {
+  background-color: #ffffff;
+  width: 80%;
+  text-align: center;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0px 4px 27px 0px #7b797940;
+  .col-3 {
+    h1 {
+       font-family: 'Inter', sans-serif;
+      font-size: 31px;
+      font-weight: 700;
+      line-height: 38px;
+      letter-spacing: 0em;
+      color: #011a3f;
+    }
+    p {
+       font-family: 'Inter', sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: 0em;
+      color: #545454;
+    }
+  }
+}
+//white students
+.feature {
+  background-color: #ffd124;
+  width: 100%;
+}
+.guide_card-desc {
+  display: flex;
+}
+.guide_card-desc img {
+  width: 15px !important;
+  margin-right: 5px !important;
+}
+.logo_box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+.mobile-card-image {
+  display: none;
+}
+.founder_card {
+  width: 56.625rem;
+  height: 29.25rem;
+  background-color: #e0ecff;
+  border-radius: 22.45px;
+}
+.top_text h3 {
+   font-family: 'Inter', sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: left;
+  color: #2e2e2e;
+}
+.top_text p{
+   font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+   font-family: 'Inter', sans-serif;
+  color: #616161;
+}
+.bottom_text h6{
+   font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  color: #2e2e2e;
+}
+.bottom_text p{
+   font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #616161;
+}
+.guide_line{
+    position: relative;
+    left: 56%;
+    width: 18%;
+    bottom: 51px;
+}
+.desktop_view {
+  display:flex;
+  gap:5px
+}
+.first_div img{
+  width:100%;
+  max-height:430px
+}
+.second_div img{
+  width: 100%;
+}
+.acheive-img{
+  width:100%;
+  margin-top:5px;
+  max-height:170px;
+}
+.third_div{
+  display:flex;
+  gap:5px
+}
+.achieve4_img{
+  width:100%;
+}
+.achieve5_img{
+  width: 264px;
+}
+.achieve6_img{
+  width:100%;
+  max-height: 255px;
+  margin-top: 5px;
+}
+.responsive_img {
+  padding-left: 0px;
+    padding-right: 0px;
+}
+.about__corosel{
+  z-index: 0 !important;
+}
+@media (min-device-width: 300px) and (max-device-width: 768px) {
+  .our_mission_vision_page{
+    margin-top: 6rem !important;
+  }
+  .main-container .about_us_heading_container .about_us_heading_underline_image img {
+    position: relative;
+    bottom: 20px;
+    width: 94px;
+    height: 10px;
+    left: 23px;
+}
+  .mbl_description{
+    margin-bottom: 0px !important;
+  }
+  .mbl-guide-corosel{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+  .learn_with_us_page_p_mobile{
+    margin-bottom: 25px !important;
+  }
+  .guide_line {
+    left: 58%;
+    width: 22%;
+    bottom: 28px;
+    height: 12px;
+}
+  .mbl_br {
+    display: none;
+  }
+  .founder_card {
+    width: 100%;
+    height: 22.25rem;
+    background-color: #e0ecff;
+    border-radius: 22.45px;
+    margin: 0px 20px !important;
+}
+  .founder_pic {
+    width: 130px;
+  }
+  .founder_pic2{
+    width: 140px;
+  }
+  .bottom_text h6{
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 10px;
+  }
+  .bottom_text p{
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .top_text p {
+    font-size: 13px;
+    line-height: 20px;
+}
+  .founder_card_box{
+    margin: 0px 15px !important;
+  }
+  .top_text h3 {
+    font-size: 20px;
+    line-height: 24px;
+}
+  .mobile-card-image {
+    display: block;
+    margin-bottom: 35px;
+  }
+
+  .our_mission_vision_page .our_vision_our_mission .head_vision_mission_box {
+    padding-left: 10px;
+  }
+  .responsive_img {
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+    padding: 0px 20px;
+  }
+  .our_mission_vision_page .our_vision_our_mission p {
+    margin-top: 0px;
+    font-size: 15px;
+    line-height: 20px;
+    padding-right: 0px;
+  }
+  .our_vision_underline_mobile {
+    position: relative;
+    top: -9px;
+    left: 103px;
+  }
+  .underline_mobile_about {
+    position: relative;
+    top: -9px;
+    left: 110px;
+  }
+  .our_mission_vision_page .our_vision_our_mission .head_vision_mission {
+    margin-top: 24px;
+  }
+  .our_mission_vision_page .our_vision_our_mission h2 {
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .responsive_row {
+    display: block;
+  }
+  
+  .achieve-your-goals_page_heading
+    .achieve-your-goals_page_images
+    .world-class-training {
+    display: flex;
+    color: #858585;
+    font-family: "Inter", var(--default-font-family);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+  }
+  .custom_btn {
+    gap: 5px !important;
+  }
+  .logo_box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .guide_card-desc {
+    display: flex;
+  }
+  .guide_card-desc img {
+    width: 10px !important;
+  }
+  .container-width {
+    width: 100%;
+  }
+  .guide_container {
+    margin-top: 12px !important;
+  }
+  .item-section {
+    display: block;
+  }
+
+  .acheive-goals {
+    margin-top: 30px !important;
+  }
+  .desktop_view {
+    display: none !important;
+  }
+  .main-container {
+    height: 190px;
+    .about_us_heading_container {
+      margin: 60px 0 0 0;
+      .about_us_heading {
+        font-size: 31px;
+        line-height: 38px;
+        margin-bottom: 20px;
+      }
+     
+      .about_us_heading_text {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        padding: 0px 10px;
+      }
+    }
+  }
+  .achieve-your-goals_page_heading {
+    .achieve-your-goals_page_images {
+      margin-top: 20px;
+      width: 100%;
+      .achieve-your-goals {
+        font-size: 25px;
+        line-height: 40px;
+      }
+      .achieve_your_goal_underline_image {
+        display: none;
+      }
+      .achieve_your_goal_underline_image_mobile {
+        display: block;
+        position: absolute;
+        top: 33px;
+        left: 25px;
+      }
+    }
+    .about_achieve_mobile {
+      display: block;
+      margin: 0;
+    }
+    .row-desktop {
+      display: none;
+    }
+  }
+  .card-block {
+    margin-left: 25px;
+  }
+  .counter {
+    width: 100%;
+    .col-6 {
+      padding: 0;
+      h3 {
+         font-family: 'Inter', sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #011a3f;
+      }
+      p {
+         font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #545454;
+      }
+    }
+  }
+  .learn_with_us_page {
+    position: relative;
+    top: 72px;
+    h2 {
+      font-size: 25px;
+      line-height: 30px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .learn_with_us_underline_mobile {
+      position: relative;
+      top: -9px;
+      left: 100px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .semi_para {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .semi_heading {
+      font-size: 16px;
+    }
+  }
+  .learn_with_us_page .course_count_desc {
+    padding-left: 22px !important;
+  }
+
+  .meet_your_guides_page {
+    h2 {
+      font-size: 25px;
+      line-height: 30px;
+    }
+    p {
+      font-size: 13px;
+      line-height: 18px;
+    }
+   
+    .guides_card2 {
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-radius: 0 0 20px 20px;
+      .duration_buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+        margin-top: 20px;
+        .duration_button {
+          background-color: #ffffff;
+          border: 1px solid #dedede;
+          border-radius: 32px;
+          width: 83px;
+          height: 33px;
+          padding: 0px 5px;
+          gap: 8px;
+          text-align: center;
+        }
+        a {
+          text-decoration: none;
+          color: #2e2e2e;
+           font-family: 'Inter', sans-serif;
+          font-size: 13px;
+          font-weight: 600;
+          line-height: 31px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+      }
+      .comment {
+        font-size: 13px;
+        line-height: 18px;
+        text-align: left;
+      }
+      .technical_expertise {
+        font-size: 13px;
+        line-height: 16px;
+      }
+      .technical_expertise_para {
+        font-size: 13px;
+        line-height: 18px;
+      }
+    }
+  }
+  
+}

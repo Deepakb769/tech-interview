@@ -1,0 +1,471 @@
+.column {
+  float: left;
+  width: 50%;
+  height: auto;
+}
+.form-custom-container {
+  margin-left: 10%;
+  margin-right: 8%;
+  margin-bottom: 7%;
+  margin-top: 1%;
+}
+
+.column-second {
+  background-color: white;
+  width: 35%;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2509803922);
+  border-radius: 10px;
+  margin-top: 36px;
+  margin-bottom: 30px;
+  position: relative;
+  right: 42px;
+}
+
+.contact_form_box {
+  padding: 15px;
+}
+
+.column-first {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/our_programs/choose_our_course.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  width: 65%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.form-desc {
+  display: flex;
+  padding-right: 130px;
+}
+
+.form-side-setion {
+  padding: 15% 10%;
+}
+
+.enquire-para {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.enqurie-hero-main-container {
+  overflow: hidden;
+
+  &,
+  * {
+    box-sizing: border-box;
+  }
+
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+
+  height: 320px;
+  background: #e6edf8;
+  margin-bottom: 80px;
+}
+
+.enqurie-hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 110px;
+}
+.enquire-hero-main-bgImage{
+  position: absolute;
+  top: 54px;
+  left: 0px;
+}
+.enquire-hero-bgImage-right {
+  top: 60px;
+  width: auto;
+}
+
+.enqurie-hero-underline {
+  position: relative;
+  bottom: 5px;
+  left: 91px;
+  width: 190px;
+  height: 17px;
+}
+
+.enqurie-hero-heding {
+  color: #2e2e2e;
+  font-family: "Inter", var(--default-font-family);
+  font-size: 61px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+}
+
+.enqurie-hero-main-bgImage {
+  position: absolute;
+  top: -74px;
+}
+
+.enqurie-hero-title {
+  color: #2e2e2e;
+  font-family: "Inter", var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 10px;
+}
+
+//   enquire form scss start
+.error-message {
+  color: red;
+  margin-left: 10px;
+  font-size: 12px;
+  height: 1px;
+  // display: none;
+}
+
+.enquire-form {
+  .eq-input{
+    height: 45px;
+  }
+  position: relative;
+
+  .enqurie-form-heding {
+    color: #2e2e2e;
+    font-family: "Inter", var(--default-font-family);
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 73.824px;
+  }
+
+  .container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #344054;
+    font-weight: 500;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+  }
+
+  .enquire-us-form-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+    height: 42px;
+    // padding: 24px 25px 24px 25px;
+    background: #ffd124;
+    border: 1px solid #2e2e2e;
+    overflow: hidden;
+    border-radius: 85px;
+    border: 1px solid black !important;
+  }
+
+  .enquire-form-submit {
+    background: #ffd124 !important;
+    flex-shrink: 0;
+    position: relative;
+    width: 100%;
+    // height: 19px;
+    cursor: pointer;
+    color: #2e2e2e;
+    font-family: "Inter", var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    white-space: nowrap;
+    background: transparent;
+    border: none;
+  }
+
+  .enquire-star-img {
+    margin-right: 10px;
+  }
+
+  .eq-input-select {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+    height: 45px;
+    padding: 0px 7px;
+    color: #757575;
+  }
+
+  .eq-lables-friendly {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+
+  .eq-privacy {
+    font-size: 16x;
+    color: #667085;
+  }
+
+}
+
+.case-study-container {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.custom_course {
+  margin-bottom: 0px !important;
+}
+
+.studies_btn {
+  background: white;
+  border-radius: 20px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Inter", Arial, sans-serif;
+  width: 100%;
+  border: 1px solid;
+}
+
+.studies_btn_link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.studies_btn_link:hover {
+  text-decoration: none;
+  color: #000000 !important;
+}
+
+.background_mobile {
+  display: none;
+}
+
+.form_container {
+  margin: 3%;
+}
+
+.enqurie-form-underline {
+  position: relative;
+  left: 57%;
+  bottom: 43px;
+}
+
+.enquiry_page {
+  background-color: #f9f9f9;
+}
+
+.enquire_img img {
+  width: 100%;
+  margin-top: -18px;
+  margin-left: 70%;
+}
+
+.enqurie-sub-heding {
+  color: #2e2e2e;
+  font-family: "Inter", var(--default-font-family);
+  font-size: 49px !important;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+}
+
+.rating {
+  color: #858585;
+  font-size: 14px;
+   font-family: 'Inter', sans-serif;
+}
+
+.enquire_text_area{
+  resize: none;
+  height: 50px !important;
+
+}
+.enquire__case_study_card{
+  margin-top: 3rem;
+}
+
+@media (min-device-width: 300px) and (max-device-width: 768px) {
+  .enquire_text_area{
+    height: 50px;
+  }
+  .enquiry__heading{
+    margin: 40px 0px;
+  }
+  .enqurie-sub-heding {
+    font-size: 25px !important;
+    line-height: 30px;
+    padding: 0px 40px;
+  }
+
+  .underline_mobile {
+    margin-left: 156px;
+    margin-top: -11px;
+  }
+
+  .enquiry-heading {
+     font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+  }
+
+  .enqurie-form-underline {
+    position: relative;
+    float: none;
+    right: 0px;
+    width: 73px;
+    height: 10px;
+    left: 120px;
+    bottom: 40px;
+  }
+
+  .form_container {
+    margin: 5%;
+    padding-bottom: 10px;
+  }
+
+  .background_mobile {
+    display: block;
+    position: absolute;
+    height: 190px;
+    top: 77px;
+    left: 65px;
+  }
+
+  .enqurie-hero-main-container {
+    height: 210px;
+    margin-bottom: 50px;
+  }
+
+  .enqurie-hero-underline {
+    position: relative;
+    bottom: 7px;
+    width: 70px;
+    height: 11px;
+    left: 58px;
+  }
+
+  .enqurie-hero-title {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .enqurie-hero-container {
+    padding: 40px 10px 40px 10px;
+  }
+
+  .studies_btn {
+    background: white !important;
+    font-size: 16px !important;
+    border: 1px solid black !important;
+    color: #000000 !important;
+  }
+
+  .slider-margin {
+    margin-left: -20px;
+  }
+
+  .study_page_mobile {
+    background: #ffffff !important;
+  }
+
+  .course_name h5 {
+    font-size: 18px;
+  }
+
+  .rating {
+    font-size: 13px;
+  }
+
+  .button-text-custom {
+    background: white !important;
+  }
+
+  .custom_course {
+    margin-bottom: 0px !important;
+  }
+
+  .form-custom-container {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 12%;
+  }
+
+  .column-first {
+    background-size: cover;
+    width: 100%;
+    border-radius: 0px;
+    height: 360px;
+  }
+
+  .form-side-setion {
+    padding: 40px 15px;
+  }
+
+  .enqurie-hero-heding {
+    font-size: 31px;
+    line-height: 31px;
+  }
+
+  .form-desc {
+    padding-right: 0px;
+  }
+
+  .enquire-para {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    padding-right: 74px;
+  }
+
+  .column-second {
+    background-color: white;
+    width: 95%;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2509803922);
+    border-radius: 10px;
+    margin-top: -30px;
+    margin-bottom: 0px;
+    position: relative;
+    right: 10px;
+    left: 10px;
+  }
+}

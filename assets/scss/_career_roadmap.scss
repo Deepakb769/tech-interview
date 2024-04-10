@@ -1,0 +1,883 @@
+.responsive_questions_card{
+  display: none !important;
+}
+.roadmap__faqs{
+  display: none !important;
+}
+.responsive_slider_container{
+  display: none !important;
+}
+.top_skill_box{
+  border-left: 1px dashed #79747E;
+  padding-left: 22px;
+  margin-left: 7px;
+  width:95%;
+  }
+  .top_skill_box_btn{
+   background: #E6BC20;
+   border: none;
+   border-radius: 20px;
+   width: 32px;
+   height: 28px;
+   position: relative;
+   right: 39px;
+   top: 0px;
+   font-weight: 500;
+   font-size: 13px;
+  }
+  .top_skill_box_title{
+   font-family: 'Inter', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: #404040;
+  margin-top: -30px;
+  }
+  .top_skill_box_para{
+  font-size:13px;
+  font-family:Inter;
+  }
+  .table_title{
+  background:#E6EDF8;
+  }
+  .table_container{
+  width:60%;
+  height: 250px;
+  border: 1px solid #EAEAEA;
+  border-top: none;
+  }
+  .table_box_title{
+  padding: 10px 25px;
+  }
+  .table_box_detail{
+  padding: 10px 0px 0px 22px;
+  display: flex;
+  gap: 5px;
+  }
+  .table_data_icon{
+  padding-right:5px;
+  }
+  .questions_card_heading {
+  h3 {
+   font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  color: #000000;
+  }
+  p {
+   font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+  color: #616161;
+  }
+  }
+  .questions_card_box{
+  padding:12px;
+  width:95%;
+  margin-top:60px;
+  }
+  .questions_card_questions {
+  p{
+   font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+  color: #616161;
+  }
+  button {
+   font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #044AB4;
+  border: none;
+  background: white;
+  }
+  }
+  .accordion-item{
+  .techs_faqs_btn{
+  font-size:18px;
+  font-weight:600;
+  color:#404040;
+  font-family:Inter;
+  background:#E6EDF8;
+  /* margin-bottom: 10px; */
+  }
+  }
+  .faq_card_title{
+   font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #404040;
+  }
+  .techs_card{
+  background:#E6EDF8;
+  display: flex;
+  justify-content:center;
+  padding: 10px 0px 0px 0px;
+  }
+  .tehs_card_detail{
+     padding:5px !important;
+  }
+  .tehs_card_detail ul{
+  padding-left: 10px !important;
+  }
+  .card_detail_list li{
+   font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #404040;
+  margin-bottom: 10px;
+  }
+  .item_border{
+  border: 1px solid rgba(0, 0, 0, .125) !important;
+  border-top:none !important;
+  margin-bottom:10px !important;
+  }
+  .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-chevron-up' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
+  background-size: cover;
+  }
+  .accordion-button:not(.collapsed)::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-chevron-down' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708'/%3E%3C/svg%3E");
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
+  background-size: cover;
+  }
+  .accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-chevron-up' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
+  background-size: cover;
+  }
+  .accordtion-box_card{
+     border:none !important;
+  }
+  .ui_ux_designer_Jobs {
+     .ui_ux_designer_Jobs_card {
+       padding: 16px 1px;
+       margin-bottom: 8px;
+       border-radius: 8px;
+     }
+     h5 {
+        font-family: 'Inter', sans-serif;
+       font-size: 16px;
+       font-weight: 600;
+       line-height: 22px;
+       letter-spacing: 0em;
+       text-align: left;
+       color: #000000;
+       margin: 0;
+       padding: 0px 18px;
+       padding-top: 18px;
+     }
+     .ui_ux_designer_card {
+       .ui_ux_designer_card_image {
+         padding: 3px 10px;
+       }
+       .ui_ux_designer_card_text {
+         h5 {
+            font-family: 'Inter', sans-serif;
+           font-size: 16px;
+           font-weight: 500;
+           line-height: 19px;
+           letter-spacing: 0em;
+           text-align: left;
+           color: #333333;
+           margin: 0;
+           padding: 3px 0px;
+         }
+         p {
+            font-family: 'Inter', sans-serif;
+           font-size: 13px;
+           font-weight: 400;
+           line-height: 18px;
+           letter-spacing: 0em;
+           text-align: left;
+           color: #545454;
+           margin: 0;
+           padding: 3px 0px;
+         }
+         .experience_package {
+           gap: 10px;
+           .experience {
+             display: flex;
+             // align-items: baseline;
+             gap: 3px;
+             p {
+                font-family: 'Inter', sans-serif;
+               font-size: 13px;
+               font-weight: 400;
+               line-height: 18px;
+               letter-spacing: 0em;
+               text-align: left;
+               color: #545454;
+               img {
+                 margin-right: 6px;
+               }
+             }
+           }
+           .package {
+             display: flex;
+             p {
+                font-family: 'Inter', sans-serif;
+               font-size: 13px;
+               font-weight: 400;
+               line-height: 18px;
+               letter-spacing: 0em;
+               text-align: left;
+               color: #545454;
+               margin-right: 5px img {
+                 margin-right: 4px;
+               }
+             }
+           }
+         }
+       }
+     }
+   }
+   .product_designer_Jobs {
+     width: 100%;
+     background-color: #e6edf8;
+     margin: 20px 0 0;
+     border: none !important;
+       .product_designer_card {
+         h1 {
+            font-family: 'Inter', sans-serif;
+           font-size: 14px;
+           font-weight: 600;
+           line-height: 17px;
+           letter-spacing: 0em;
+           text-align: left;
+           margin: 0;
+           padding-bottom: 6px;
+         }
+         padding: 0 17px;
+         .product_designer_card_left_text {
+           h6 {
+              font-family: 'Inter', sans-serif;
+             font-size: 20px;
+             font-weight: 600;
+             line-height: 24px;
+             letter-spacing: 0em;
+             text-align: left;
+             color: #404040;
+             margin: 0;
+             padding-bottom: 5px;
+           }
+           p {
+              font-family: 'Inter', sans-serif;
+             font-size: 16px;
+             font-weight: 400;
+             line-height: 24px;
+             letter-spacing: 0em;
+             text-align: left;
+             color: #616161;
+             margin: 0;
+             padding-bottom: 5px;
+           }
+         }
+         .product_designer_card_right_text {
+           h5 {
+              font-family: 'Inter', sans-serif;
+             font-size: 20px;
+             font-weight: 600;
+             line-height: 24px;
+             letter-spacing: 0em;
+             text-align: left;
+             color: #404040;
+             margin: 0;
+             padding-bottom: 5px;
+           }
+           p {
+              font-family: 'Inter', sans-serif;
+             font-size: 16px;
+             font-weight: 500;
+             line-height: 19px;
+             letter-spacing: 0em;
+             text-align: left;
+             color: #404040;
+             margin: 0;
+           }
+         }
+       }
+     }
+
+     .react_card {
+       margin-top: 20px;
+       .course {
+         display: flex;
+         flex-direction: column;
+         gap: 0px;
+         margin-bottom: -9px;
+         .course_detail {
+           display: flex;
+           justify-content: space-between;
+           margin-top: 10px;
+
+           h5 {
+             font-size: 20px;
+             font-weight: 600;
+           }
+           .rating {
+             font-size: 11px;
+             color: #616161;
+             i {
+               color: #ffa41c;
+             }
+           }
+         }
+         .course_duration {
+           display: flex;
+           align-items: center;
+           margin-top: 0px;
+           gap: 10px;
+
+           .duration_time {
+             // width: 68px;
+             p {
+               background-color: #fffae9;
+               font-size: 10px;
+               color: #997d16;
+               border-radius: 30px;
+
+               i {
+                 margin-right: 6px;
+               }
+             }
+           }
+         }
+       }
+
+       .opportunity {
+         h6 {
+           margin-bottom: 9px;
+           font-size: 14px;
+           font-weight: 600;
+         }
+         p {
+           font-size: 13px;
+           margin: 6px 0;
+         }
+       }
+
+       .student_enrolled {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         margin-top: 20px;
+         .enrolled {
+           display: flex;
+           align-items: center;
+           color: #2e2e2e;
+           p {
+             margin: 0;
+             font-size: 11px;
+           }
+         }
+         .amount {
+           color: #545454;
+         }
+       }
+     }
+    
+     .react_card {
+       position: relative;
+       height: auto;
+     }
+     .react_logo {
+        position: relative;
+        top: -28px;
+        left: 10px;
+        width: 50px !important;
+     }
+
+.card_padding_box {
+  padding: 10px !important;
+  position: relative;
+    top: -40px;
+}
+.career_img {
+  width: 100%;
+  margin: 4% 0%;
+}
+.time_duration {
+  color: #997d16 !important;
+}
+.career_roadmap_header {
+  .career_roadmap_text {
+    h1 {
+       font-family: 'Inter', sans-serif;
+      font-size: 39px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #404040;
+      span {
+        color: #044ab4;
+      }
+    }
+    h4 {
+       font-family: 'Inter', sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 30px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #2e2e2e;
+    }
+    p {
+       font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: -0.03em;
+      text-align: left;
+      color: #545454;
+    }
+  }
+}
+.step_heading {
+  .salary_heading {
+    margin: 0;
+    margin-bottom: 12px;
+    margin-top: -8px;
+  }
+}
+.career_roadmap_top_skills {
+  .top_skills_heading {
+    margin-top: -8px;
+  }
+}
+
+.career_roadmap_top_skills {
+  .card_roadmap_top_skills_card_box {
+    padding: 23px 13px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    .product_designer_card {
+      .product_designer_card_left_text {
+        h6 {
+           font-family: 'Inter', sans-serif;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 17px;
+          letter-spacing: 0em;
+          text-align: left;
+          margin: 0;
+          padding-bottom: 6px;
+        }
+        p {
+           font-family: 'Inter', sans-serif;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left;
+          margin: 0;
+        }
+      }
+      .product_designer_card_right_text {
+        h5 {
+           font-family: 'Inter', sans-serif;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 22px;
+          letter-spacing: 0em;
+          text-align: left;
+          margin: 0;
+          padding-bottom: 4px;
+        }
+        p {
+           font-family: 'Inter', sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 17px;
+          letter-spacing: 0em;
+          text-align: left;
+          margin: 0;
+        }
+      }
+    }
+  }
+  .career_border {
+    height: 360px !important;
+  }
+  .salaries_border {
+    height: 613px !important;
+  }
+  .career_border_second {
+    height: 328px !important;
+  }
+  .salaries_in_different_border {
+    height: 550px !important;
+  }
+  .heading_programs_to_achieve {
+    margin: 0;
+    margin-top: -8px;
+    margin-left: 27px;
+  }
+  .heading_career_salaries {
+    margin: 0;
+    margin-top: -8px;
+  }
+  margin-top: 52px;
+  .row {
+    .col-2 {
+      flex: 0 0 auto;
+      width: 4.666667%;
+    }
+    .col-5 {
+      padding: 8px 0;
+      h5 {
+         font-family: 'Inter', sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #404040;
+      }
+      p {
+         font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #404040;
+      }
+      table {
+        border: 1px solid #eaeaea;
+        width: 357px;
+        height: 207px;
+        thead {
+          background-color: #e6edf8;
+        }
+        tbody,
+        td,
+        tfoot,
+        th,
+        thead,
+        tr {
+          border: none;
+          padding: 7px 21px;
+        }
+        tbody {
+          tr {
+            td {
+               font-family: 'Inter', sans-serif;
+              font-size: 13px;
+              font-weight: 500;
+              line-height: 16px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: #404040;
+
+              img {
+                font-size: 13px;
+                width: 13px;
+                margin-right: 6px;
+              }
+            }
+          }
+        }
+      }
+
+     
+
+     
+
+      .react_card {
+        width: 22rem;
+      }
+      .react_card {
+        position: relative;
+      }
+      .react_logo {
+        position: absolute;
+        top: 53px;
+        left: 15px;
+        width: 50px !important;
+      }
+    }
+  }
+  .career_roadmap_border {
+    border-left: 1px dotted #79747e;
+    height: 272px;
+    width: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .career_roadmap_border2 {
+    border-left: 1px dotted #79747e;
+    height: 817px;
+    width: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+}
+
+.ui_ux_designer_Jobs {
+  width: 95%;
+  background-color: #e6edf8;
+  padding: 0px 9px;
+}
+.react_card_cutom {
+  .react_logo_roadmap {
+    width: 40px !important;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+  }
+}
+
+.graph_img {
+  width: 100%;
+  margin: 25px -35px;
+}
+.custom_product_card {
+  padding: 16px 1px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
+.custom_col {
+  margin-left: -24px;
+}
+.roadmap_card_icon{
+  padding-right: 5px;
+}
+.Jobs_card_box{
+  padding: 8px !important;
+}
+
+
+@media (min-device-width: 300px) and (max-device-width: 768px) {
+  .sallary_card_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sallary_card_box h6{
+    font-size: 14px;
+    font-family: Lato;
+    color: #777777;
+    font-weight: 500;
+  }
+  .sallary_card_box button{
+    font-size: 12px;
+    font-family: Lato;
+    color: #E6EDF8;
+    font-weight: 500;
+    background: #044AB4;
+    border: none;
+    padding: 10px 35px;
+    border-radius: 30px;
+  }
+  .questions_card_box {
+    padding: 12px;
+    width: 100%;
+    margin-top: 0px;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.2);
+   }
+  .responsive_questions_card{
+    display: block !important;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .responsive_top_skill_box{
+    border-left: none;
+  }
+  .responsive_slider_container{
+    display: block !important;
+  }
+  .product_designer_Jobs .product_designer_card {
+    padding: 0 7px;
+}
+  .product_designer_Jobs .product_designer_card .product_designer_card_right_text p{
+    font-size: 14px;
+  }
+  .product_designer_Jobs .product_designer_card .product_designer_card_left_text p{
+    font-size: 12px;
+  }
+  .product_designer_Jobs .product_designer_card .product_designer_card_right_text h5{
+    font-size: 14px;
+  }
+  .product_designer_Jobs .product_designer_card .product_designer_card_left_text h6{
+    font-size: 14px;
+  }
+  .product_designer_Jobs_box{
+    padding: 0px !important;
+  }
+  .product_designer_Jobs{
+    background: white;
+  }
+  .accordion-item .techs_faqs_btn {
+    font-size: 14px;
+    margin-bottom: 10px !important;
+}
+  .roadmap__faqs{
+    display: block !important;
+  }
+  
+  .table_container{
+    width: 100%;
+  }
+  .top_skill_box_title{
+    font-size: 18px;
+  }
+  .top_skill_box_btn {
+    background: #044AB4;
+    color: white;
+}
+    .ui-card-title{
+         font-family: 'Inter', sans-serif;font-size: 16px;font-weight: 500;line-height: 19px;letter-spacing: 0em;text-align: left;padding-left: 6px;
+    }
+    .ui-card-title-desc{
+         font-family: 'Inter', sans-serif;font-size: 13px;font-weight: 400;line-height: 18px;letter-spacing: 0em;text-align: left;margin: 0;padding-left: 6px;
+    }
+    .header_btn{
+        background:#E6EDF8;border-radius: 10px;
+    }
+    .graph_img{
+        margin: 10px -13px
+    }
+    .border_style{
+        border:none;
+    }
+    .acordian_desc{
+        margin-top: 60px;font-weight: 600;color: #404040;font-size:14px
+    }
+    .card_desc_roadmap{
+         font-family: 'Inter', sans-serif;font-size: 13px;font-weight: 500;line-height: 16px;letter-spacing: 0em;text-align: left;
+    }
+    .responsive_mbl_container{
+        background-color: #F8F8F8
+    }
+  .card_item {
+    background: white !important;
+  }
+  .acordition_list {
+    font-size: 12px;
+    color: #000000;
+  }
+
+  .city_icon {
+    padding-right: 5px;
+  }
+  
+  .career_roadmap_header {
+    padding:0px;
+  }
+  .roadmap_enrolled_p {
+    font-size: 14px !important;
+  }
+  .desc_roadmap p {
+    padding: 9px 6px !important;
+    font-size: 12px !important;
+  }
+  .roadmap_custom img {
+    width: 50px !important;
+  }
+  .roadmap_title p {
+    font-size: 11px !important;
+  }
+  .react_logo_roadmap {
+    width: 40px !important;
+    position: absolute;
+    top: 46px !important;
+    left: 15px !important;
+  }
+  .title_custom {
+    font-size: 16px !important;
+  }
+  .cards_title_mbl {
+     font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .career_img {
+    margin: 10% 0%;
+  }
+  .career_roadmap_top_skills .career_roadmap_border2 {
+    height: 410px;
+  }
+  .blue_box {
+    margin-top: 18px;
+  }
+  .salary_title {
+    margin-bottom: 12px;
+     font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 15px;
+    margin-top: 20px;
+  }
+  .career_roadmap_top_skills .career_roadmap_border {
+    height: 340px;
+    margin-top: 0px;
+  }
+  .ui_ux_designer_Jobs {
+    margin: 0px;
+    width: 100%;
+    border: none;
+    padding: 0px 3px;
+    margin-bottom: 40px;
+    .main_heading {
+      font-weight: bold;
+       font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: left;
+      padding: 31px 0;
+    }
+  }
+  .career_roadmap_text h1 {
+    font-size: 25px;
+  }
+  .career_roadmap_text h4 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+  }
+  .career_roadmap_text span {
+    font-size: 25px;
+    color: #044ab4;
+  }
+
+  .career_roadmap_header .career_roadmap_text h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .career_roadmap_header .career_roadmap_text h4 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .career_roadmap_header .career_roadmap_text p {
+    font-size: 14px;
+  }
+  .career_roadmap_top_skills {
+    margin-top: 10px;
+  }
+  .roadmap_container_mbl {
+    margin: 40px 20px;
+  }
+}

@@ -1,0 +1,550 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+.testimonial_card_body{
+  padding: 0px !important;
+}
+.testimonial {
+  background-color: #e6edf8;
+  overflow: hidden;
+  h2 {
+    font-weight: 900;
+    font-size: 61px;
+    line-height: 140%;
+  }
+  p {
+    margin-top: -9px;
+    font-size: 13px;
+    margin-bottom: 51px;
+  }
+  .testimonial_card_student{
+    height: 170px;
+    position: relative;
+    top:-18px;
+  }
+  .text-center {
+    font-size: 20px;
+    margin-top: -20px;
+  }
+  .testimonial_card_details {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: visibility 0s, opacity 0.5s linear, height 0.5s linear;
+  }
+  .testimonial_card {
+    background-color: #e0ecff;
+    transition: all 0.5s;
+    height: 340px;
+    width: 18vw;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid #044ab4;
+    right: 8px;
+    h5 {
+      font-size: 20px;
+    font-weight: 700;
+    }
+    .testimonial_card_details {
+      font-size: 13px;
+      padding: 10px 0 0;
+    }
+    .testimonial_card_details_mobile {
+      display: none;
+    }
+   
+    transform: translateY(75%) rotate(-15deg);
+    /* Adjust for each card */
+    transition: transform 0.5s ease-in-out;
+  }
+  .testimonial_card1 {
+    background-color: #dcf2ef;
+    transition: all 0.5s;
+    height: 340px;
+    width: 18vw;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid #11cde1;
+    transform: translateY(63%) rotate(-5deg);
+    transition: transform 0.5s ease-in-out;
+    z-index: 1;
+    right: 8px;
+    h5 {
+      font-size: 20px;
+    font-weight: 700;
+    }
+    p {
+      font-size: 13px;
+      
+    }
+    .testimonial_card_details {
+      font-size: 13px;
+      padding: 5px 0 0;
+    }
+  }
+  .testimonial_card2 {
+    background-color: #ffe6d4;
+    transition: all 0.5s;
+    height: 340px;
+    width: 18vw;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid var(--Primary-Orange, #f15a22);
+    transform: translateY(63%) rotate(5deg);
+    transition: transform 0.5s ease-in-out;
+    h5 {
+      font-size: 20px;
+    font-weight: 700;
+    }
+    p {
+      font-size: 13px;
+    }
+    .testimonial_card_details {
+      font-size: 13px;
+      padding: 5px 0 0;
+    }
+  }
+  .testimonial_card3 {
+    background-color: #ffe8fe;
+    transition: all 0.5s;
+    height: 340px;
+    width: 18vw;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid #6a14ae;
+    transform: translateY(73%) rotate(15deg);
+    transition: transform 0.5s ease-in-out;
+    left: 5px;
+    h5 {
+      font-size: 20px;
+    font-weight: 700;
+    }
+    p {
+      font-size: 13px;
+    }
+    .testimonial_card_details {
+      font-size: 13px;
+      padding: 5px 0 0;
+    }
+  }
+  .testimonial_card:hover,
+  .testimonial_card1:hover,
+  .testimonial_card2:hover,
+  .testimonial_card3:hover {
+    width: 19vw;
+    transition: transform 0.4s ease-in-out !important;
+    border: none !important;
+    transform: translateY(0%) rotate(0deg) !important;
+    z-index: 2;
+    .testimonial_card_student{
+      height: 170px;
+      position: relative;
+      top:0;
+    }
+    .testimonial_card_details {
+      visibility: visible;
+      opacity: 1;
+      height: auto;
+    }
+  }
+  .testimonial_text_heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Inter", Arial, sans-serif;
+    margin-top: 59px;
+    .title_underline_img {
+      width: 223px;
+      img {
+        position: relative;
+        top: -24px;
+        right: 29%;
+      }
+    }
+  }
+}
+.testimonial:hover
+{
+  transition: transform 2.8s ease-in-out !important;
+}
+.testimonial:hover .testimonial_card {
+  transform: translateY(31%) rotate(-15deg);
+  // transition: transform 0.3s ease-in-out;
+}
+.testimonial:hover .testimonial_card1 {
+  transform: translateY(20%) rotate(-5deg);
+  // transition: transform 0.3s ease-in-out;
+}
+.testimonial:hover .testimonial_card2 {
+  transform: translateY(20%) rotate(5deg);
+  // transition: transform 0.3s ease-in-out;
+}
+.testimonial:hover .testimonial_card3 {
+  transform: translateY(30%) rotate(13deg);
+  // transition: transform 0.3s ease-in-out;
+}
+@media (max-width: 800px) {
+  .testimonial_card {
+    width: 58vw !important;
+    p {
+      text-align: left;
+    }
+  }
+  .testimonial_card1 {
+    width: 58vw !important;
+    p {
+      text-align: left;
+    }
+  }
+  .testimonial_card2 {
+    width: 58vw !important;
+    p {
+      text-align: left;
+    }
+  }
+  .testimonial_card3 {
+    width: 58vw !important;
+    p {
+      text-align: left;
+    }
+  }
+}
+// .testimonial_card_student{
+// }
+.student3{
+  height: 160px !important;
+}
+.student2_img{
+  position: relative;
+  left: 15px;
+}
+@media (min-device-width: 300px) and (max-device-width: 768px) {
+  .testimonial_carousel_card{
+    z-index: 0 !important;
+  }
+  .testimonial_dev_image{
+    height: 140px;
+    border-radius: 12px;
+  }
+  .testimonial_dev_detail_title{
+     font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+  }
+  .testimonial_dev_detail{
+     font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #797979;
+  }
+  .testimonial_dev_detail_box{
+    padding-left: 15px;
+    padding-top: 30px;
+  }
+  .testimonial_first_card{
+    background:#E0ECFF;
+    padding:14px;
+    padding-top: 24px;
+    border-radius: 10px 10px 0 0;
+    min-height: 200px;
+  }
+  .testimonial_first_card_child{
+    background: #E0ECFF;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -2px;
+  }
+  .testimonial_card_detail{
+     font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    padding-top: 9px;
+    color: #2E2E2E;
+    padding-right: 20px;
+  }
+  .testimonial_card_title{
+     font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .testimonial_underline{
+    position: relative;
+    top: 43px;
+    width: 150px;
+    left: 115px;
+  }
+  .testimonial_title{
+     font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    // text-decoration: 2px #ffd124 underline;
+  }
+  .testimonial_text_heading{
+    position: relative !important;
+    display: flex !important;
+    font-family: "Inter", Arial, sans-serif;
+
+  }
+  .testimonial_heading{
+    width: 100%;
+  }
+  .testimonial {
+    .testimonial_text_heading {
+      padding-top: 23px;
+      .heading {
+        h2 {
+           font-family: 'Inter', sans-serif;
+          font-size: 25px !important;
+          font-weight: 700;
+          line-height: 30px;
+          letter-spacing: 0em;
+          text-align: center;
+          color: #2e2e2e;
+        }
+      }
+      .title_underline_img {
+        img {
+          position: relative;
+          top: -22px;
+        }
+      }
+    }
+    p {
+       font-family: 'Inter', sans-serif;
+      font-size: 13px !important;
+      font-weight: 400;
+      line-height: 18px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #6b6b6b;
+    }
+    .testimonial_card {
+      width: 271px !important;
+      height: 305px;
+      .card-body {
+        h5 {
+           font-family: 'Inter', sans-serif;
+          font-size: 20px !important;
+          font-weight: 700;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #2e2e2e;
+          margin: 0;
+          padding-bottom: 30px;
+        }
+        .testimonial_card_details {
+          display: none;
+        }
+        .testimonial_card_details_mobile {
+          display: block;
+           font-family: 'Inter', sans-serif;
+          font-size: 13px !important;
+          font-weight: 400;
+          line-height: 18px;
+          letter-spacing: 0em;
+          text-align: left;
+          margin: 0;
+        }
+        p {
+           font-family: 'Inter', sans-serif;
+          font-size: 11px !important;
+          font-weight: 400;
+          line-height: 18px;
+          letter-spacing: 0em;
+          text-align: left;
+          margin: 0;
+        }
+        h6 {
+           font-family: 'Inter', sans-serif;
+          font-size: 13px !important;
+          font-weight: 700;
+          line-height: 16px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #2e2e2e;
+          margin: 0;
+          padding-top: 25px;
+        }
+      }
+      .image {
+        .testimonial_card_student1 {
+          width: 117px;
+        }
+      }
+    }
+    .testimonial_card1 {
+      width: 271px !important;
+      height: 305px;
+      .card-body {
+        h5 {
+           font-family: 'Inter', sans-serif;
+          font-size: 20px !important;
+          font-weight: 700;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #2e2e2e;
+          margin: 0;
+          padding-bottom: 30px;
+        }
+        .testimonial_card_details {
+          display: none;
+        }
+        .testimonial_card_details_mobile {
+          display: block;
+           font-family: 'Inter', sans-serif;
+          font-size: 13px !important;
+          font-weight: 400;
+          line-height: 18px;
+          letter-spacing: 0em;
+          text-align: left;
+          margin: 0;
+        }
+        p {
+           font-family: 'Inter', sans-serif;
+          font-size: 11px !important;
+          font-weight: 400;
+          line-height: 18px;
+          letter-spacing: 0em;
+          text-align: left;
+          margin: 0;
+        }
+        h6 {
+           font-family: 'Inter', sans-serif;
+          font-size: 13px !important;
+          font-weight: 700;
+          line-height: 16px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #2e2e2e;
+          margin: 0;
+          padding-top: 25px;
+        }
+      }
+      .image {
+        .testimonial_card_student2 {
+          width: 117px;
+        }
+      }
+    }
+    .testimonial_card2 {
+      width: 271px !important;
+      height: 305px;
+      .card-body {
+        h5 {
+           font-family: 'Inter', sans-serif;
+          font-size: 20px !important;
+          font-weight: 700;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #2e2e2e;
+          margin: 0;
+          padding-bottom: 30px;
+        }
+        .testimonial_card_details {
+          display: none;
+        }
+        .testimonial_card_details_mobile {
+          display: block;
+           font-family: 'Inter', sans-serif;
+          font-size: 13px !important;
+          font-weight: 400;
+          line-height: 18px;
+          letter-spacing: 0em;
+          text-align: left;
+          margin: 0;
+        }
+        p {
+           font-family: 'Inter', sans-serif;
+          font-size: 11px !important;
+          font-weight: 400;
+          line-height: 18px;
+          letter-spacing: 0em;
+          text-align: left;
+          margin: 0;
+        }
+        h6 {
+           font-family: 'Inter', sans-serif;
+          font-size: 13px !important;
+          font-weight: 700;
+          line-height: 16px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #2e2e2e;
+          margin: 0;
+          padding-top: 25px;
+        }
+      }
+      .image {
+        .testimonial_card_student3 {
+          width: 117px;
+        }
+      }
+    }
+    .testimonial_card3 {
+      width: 271px !important;
+      height: 305px;
+      .card-body {
+        h5 {
+           font-family: 'Inter', sans-serif;
+          font-size: 20px !important;
+          font-weight: 700;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #2e2e2e;
+          margin: 0;
+          padding-bottom: 30px;
+        }
+        .testimonial_card_details {
+          display: none;
+        }
+        .testimonial_card_details_mobile {
+          display: block;
+           font-family: 'Inter', sans-serif;
+          font-size: 13px !important;
+          font-weight: 400;
+          line-height: 18px;
+          letter-spacing: 0em;
+          text-align: left;
+          margin: 0;
+        }
+        p {
+           font-family: 'Inter', sans-serif;
+          font-size: 11px !important;
+          font-weight: 400;
+          line-height: 18px;
+          letter-spacing: 0em;
+          text-align: left;
+          margin: 0;
+        }
+        h6 {
+           font-family: 'Inter', sans-serif;
+          font-size: 13px !important;
+          font-weight: 700;
+          line-height: 16px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #2e2e2e;
+          margin: 0;
+          padding-top: 25px;
+        }
+      }
+      .image {
+        .testimonial_card_student4 {
+          width: 117px;
+        }
+      }
+    }
+  }
+}

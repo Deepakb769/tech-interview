@@ -1,0 +1,107 @@
+footer {
+    font-size: 14px;
+    line-height: 186%;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+footer .footer-logo .techpathshala_logo_for_desktop {
+    width: 251px;
+}
+
+.footer_textt {
+     font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #2E2E2E;
+    padding: 3px 3px;
+}
+
+footer .footer-logo {
+    display: block;
+    margin-bottom: 36px;
+}
+
+.container {
+    width: 100%;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+footer h4 {
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.social-links {
+    font-size: 22px;
+    word-spacing: 9px;
+
+    i {
+        color: #CCA71D;
+        margin-right: 10px;
+    }
+}
+
+.copy_rights {
+    padding: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.footer_detail_box{
+    align-items: baseline;
+}
+
+.mobile_br{
+    display: none;
+}
+@media (min-device-width: 300px) and (max-device-width: 768px) {
+    footer h4 {
+        margin-top: 20px;
+    }
+    .mobile_br{
+        display: block;
+    }
+    .mbl_br {
+        display: none;
+    }
+
+    footer .footer-logo .techpathshala_logo_for_desktop {
+        display: none;
+    }
+
+    footer .footer-logo .techpathshala_logo_for_mobile {
+        display: block;
+    }
+
+    .social-links {
+        font-size: 29px;
+        word-spacing: -2px;
+
+        .tumbler {
+            width: 17px !important;
+        }
+    }
+
+    .copy_rights {
+        display: block;
+        padding: 0px 0px 20px 0px;
+    }
+
+   
+}

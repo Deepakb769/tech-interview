@@ -1,0 +1,1649 @@
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-chevron-up' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-size: cover;
+    }
+    .accordion-button:not(.collapsed)::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-chevron-down' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708'/%3E%3C/svg%3E");
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-size: cover;
+    }
+.owl-nav {
+    display: none;
+}
+
+.why_us_card {
+    width: 100% !important;
+    border: none !important;
+}
+
+.scroll-with-page {
+    position: absolute !important;
+    bottom: 0px !important;
+  }
+
+.salary_trends h5 {
+    font-size: 16px;
+     font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.heading-career {
+    font-size: 25px;
+     font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.card_custom {
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2509803922);
+    border: 1px solid #EAEAEA;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.entry_card {
+    padding: 5px 8px;
+    border: 1px solid #EAEAEA;
+    border-radius: 10px;
+}
+
+.entry_card h6 {
+    margin-top: 10px;
+    color: #545454;
+    font-size: 14px;
+    margin-bottom: 0px !important;
+    line-height: 0px;
+}
+
+.entry_card p {
+    margin-top: 10px;
+    color: #545454;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.card_span {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.background-bootcamp-python {
+    width: 470px;
+    height: 295px;
+    margin: -16px 0;
+}
+
+    .sticky_card_box{
+        position: sticky; 
+        top: 0;
+        margin-left: 63%;
+        margin-top: -255px;
+        z-index: 2;
+        width: 37%;
+    }
+    .sticky_card_position{
+        margin-right:60px;
+        border-radius: 10px;
+    }
+    .stopwatch_icon{
+        padding-right:5px
+    }
+    .stopwatch_2{
+        margin-right: 10px;
+    }
+    .complete_python_bootcamp_header{
+    padding: 45px 0px;
+    background-color: #E6EDF8;
+
+    .complete_python_bootcamp_buttons {
+        padding-bottom: 21px;
+        display: flex;
+        gap: 10px;
+
+        button {
+            border: 1px solid #333333;
+            width: 124px;
+            height: 33px;
+            padding: 0 18px;
+            border-radius: 200px;
+            gap: 4px;
+             font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            font-weight: 600;
+            line-height: 16px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #333333;
+
+            i {
+                padding: 0px 5px;
+                font-size: 13px;
+                color: #333333;
+            }
+        }
+    }
+
+    .complete_python_bootcamp_text {
+        position: relative;
+
+        h1 {
+             font-family: 'Inter', sans-serif;
+            font-size: 39px;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #000000;
+            padding-bottom: 21px;
+        }
+
+        p {
+             font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        img {
+            position: absolute;
+            top: 88px;
+            left: 116px;
+            width: 195px;
+        }
+    }
+}
+
+.custom_python_container {
+    margin-top: 60px;
+}
+
+.career_opportunities {
+    margin-left: 4%;
+}
+
+.custom_card {
+    box-shadow: 0 4px 27px 0 rgba(122, 121, 121, 0.25);
+}
+
+.complete_python_bootcamp_details {
+    background-color: white;
+    padding-bottom: 49px;
+    margin-top: -377px;
+    width: 65%;
+
+    .what_youll_learn_in_this_course {
+        padding: 39px 0;
+        margin-left: 4%;
+        gap: 60px;
+
+        .what_youll_learn_in_this_course_heading {
+            position: relative;
+
+            h5 {
+                 font-family: 'Inter', sans-serif;
+                font-size: 25px;
+                font-weight: 700;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #2E2E2E;
+            }
+
+            img {
+                position: absolute;
+                top: 26px;
+                width: 64%;
+                left: 68px;
+            }
+        }
+
+        .what_youll_learn_in_this_course_list {
+            p {
+                margin: 0;
+                 font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #404040;
+            }
+        }
+    }
+
+    .career_opportunities {
+        .career_opportunities_heading {
+            position: relative;
+
+            h5 {
+                 font-family: 'Inter', sans-serif;
+                font-size: 25px;
+                font-weight: 700;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #2E2E2E;
+                margin-bottom: 34px;
+            }
+
+            img {
+                position: absolute;
+                top: 30px;
+                left: 110px
+            }
+        }
+
+        .career_opportunities_cards {
+            width: 518px;
+            height: 271px;
+            border-radius: 14.96px;
+            gap: 8px;
+
+            .card {
+                border: none;
+                border-radius: 14.96px;
+            }
+
+            .career_opportunities_cards_heading {
+                h5 {
+                    font-family: Lato;
+                    font-size: 25px;
+                    font-weight: 700;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+                    color: #2E2E2E;
+                }
+
+                p {
+                     font-family: 'Inter', sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #696984;
+                }
+            }
+
+            .salary_trends {
+                h6 {
+                     font-family: 'Inter', sans-serif;
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    color: #2E2E2E;
+                }
+
+                .salary_trends_entry_level_card {
+                    width: 139px;
+                    height: 59px;
+                    padding: 8px;
+                    border-radius: 8px;
+                    gap: 8px;
+                    border: 1px solid #EAEAEA;
+
+                    p {
+                         font-family: 'Inter', sans-serif;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 19px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        color: #545454;
+
+                        span {
+                             font-family: 'Inter', sans-serif;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 22px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            color: #000000;
+                        }
+                    }
+                }
+
+                .salary_trends_experience_level_card {
+                    width: 164px;
+                    height: 59px;
+                    padding: 8px;
+                    border-radius: 8px;
+                    gap: 8px;
+                    border: 1px solid #EAEAEA;
+
+                    p {
+                         font-family: 'Inter', sans-serif;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 19px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        color: #545454;
+
+                        span {
+                             font-family: 'Inter', sans-serif;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 22px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .top_companies {
+        border-radius: 10px;
+        gap: 34px;
+
+        .card {
+            padding-left: 12%;
+            border: none;
+            border-radius: 10px;
+
+            h3 {
+                 font-family: 'Inter', sans-serif;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #2E2E2E;
+                padding: 45px 0;
+            }
+        }
+    }
+}
+
+.industry_recognised_certificate_page {
+    background-color: #E6EDF8;
+    height: 314px;
+
+    .industry_recognised_certificate_text {
+        position: relative;
+        padding: 72px 0;
+
+        h5 {
+             font-family: 'Inter', sans-serif;
+            font-size: 39px;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #000000;
+        }
+
+        p {
+             font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #545454;
+        }
+
+        img {
+            position: absolute;
+            top: 158px;
+            left: 234px;
+        }
+    }
+}
+
+//why us
+.choose_our_course_heading {
+    position: relative;
+
+    h3 {
+         font-family: 'Inter', sans-serif;
+        font-size: 39px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #252525;
+    }
+
+  
+}
+
+.comprehensive_curriculum {
+    .comprehensive_curriculum_head {
+        h6 {
+             font-family: 'Inter', sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #333333;
+            margin-bottom: 0;
+        }
+    }
+
+    .comprehensive_curriculum_para {
+        p {
+             font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #797979;
+        }
+    }
+}
+
+//what our students are saying page
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+.what_our_students_are_saying_page {
+    background-color: #E6EDF8;
+
+    .text_heading {
+        .heading {
+            h2 {
+                 font-family: 'Inter', sans-serif;
+                font-size: 61px;
+                font-weight: 700;
+                line-height: 48px;
+                letter-spacing: 0em;
+                text-align: center;
+                color: #2E2E2E;
+            }
+
+            p {
+                 font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 19px;
+                letter-spacing: 0em;
+                margin-top: -28px;
+            }
+        }
+    }
+
+    .testimonial_card {
+        background-color: #E0ECFF;
+        transition: all .5s;
+        height: 350px;
+        width: 265px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        border: 1px solid #044AB4;
+
+        .card-body {
+            padding: 0;
+
+            h5 {
+                 font-family: 'Inter', sans-serif;
+                font-size: 22px;
+                font-weight: 700;
+                line-height: 26px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+
+        .developer_name {
+            margin-bottom: 120px;
+
+            h6 {
+                 font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #2E2E2E;
+            }
+
+            p {
+                 font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #616161;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+
+    .testimonial_card1 {
+        background-color: #DCF2EF;
+        transition: all .5s;
+        height: 350px;
+        width: 265px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        border: 1px solid #20B038;
+
+        .card-body {
+            padding: 0;
+
+            h5 {
+                 font-family: 'Inter', sans-serif;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 27px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+
+        .developer_name {
+            margin-bottom: 120px;
+
+            h6 {
+                 font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #2E2E2E;
+            }
+
+            p {
+                 font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #616161;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+
+    .testimonial_card2 {
+        background-color: #FFE6D4;
+        transition: all .5s;
+        height: 350px;
+        width: 265px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        border: 1px solid #ED7C2B;
+
+        .card-body {
+            padding: 0;
+
+            h5 {
+                 font-family: 'Inter', sans-serif;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 27px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+
+        .developer_name {
+            margin-bottom: 120px;
+
+            h6 {
+                 font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #2E2E2E;
+            }
+
+            p {
+                 font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #616161;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+
+    .testimonial_card3 {
+        background-color: #FFE8FE;
+        transition: all .5s;
+        height: 350px;
+        width: 265px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        border: 1px solid #D162CC;
+
+        .card-body {
+            padding: 0;
+
+            h5 {
+                 font-family: 'Inter', sans-serif;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 27px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+
+        .developer_name {
+            margin-bottom: 120px;
+
+            h6 {
+                 font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #2E2E2E;
+            }
+
+            p {
+                 font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #616161;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+
+    .text_heading {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        font-family: 'Inter';
+
+        .title_underline_img {
+            width: 223px;
+
+            img {
+                width: 305px;
+                margin-top: -59px;
+                margin-left: -82px;
+            }
+        }
+    }
+}
+
+//25%  off cards
+.offer_button {
+    width: 149px;  
+    height: 25px;
+    border-radius: 10px 0px 12px 0px;
+    gap: 16px;
+    background-color: #FFD124;
+    margin: 0;
+ 
+    button {
+        width: 100%;
+         font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: center;
+        border: none;
+        background-color: #FFD124;
+        padding-top: 8px;
+        border-radius: 14px;
+    }
+}
+
+.bootcamp-img {
+    padding: 32px 17px 0px 17px !important;
+}
+
+.offer_button_professional_crtificate {
+    h5 {
+         font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #2E2E2E;
+        margin: 0;
+    }
+
+    p {
+         font-family: 'Inter', sans-serif;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #797979;
+    }
+}
+
+.offer_button_professional_crtificate_price_details {
+    .offer_button_professional_crtificate_price {
+        margin-top: 4px;
+
+        h3 {
+             font-family: 'Inter', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #2E2E2E;
+        }
+
+        .offer_button_professional_crtificate_price_discount {
+            gap: 3px;
+
+            p {
+                 font-family: 'Inter', sans-serif;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 19px;
+                letter-spacing: 0em;
+                text-align: left;
+                text-decoration: line-through;
+                padding-right: 3px;
+            }
+
+            button {
+                width: 54px;
+                height: 20px;
+                padding: 4px 8px 4px 8px;
+                border-radius: 5px;
+                gap: 8px;
+                background-color: #FFD124;
+                border: none;
+                 font-family: 'Inter', sans-serif;
+                font-size: 10px;
+                font-weight: 500;
+                line-height: 12px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #2E2E2E;
+            }
+        }
+    }
+
+    .offer_days_left {
+        p {
+             font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 16px;
+            letter-spacing: 0em;
+            color: #E15656;
+            margin: 0;
+        }
+    }
+}
+
+.course_includes {
+    h5 {
+        padding-bottom: 3px;
+        padding-left: 16px;
+        font-size: 16px;
+        font-weight: 700
+    }
+
+    .course_hours {
+        padding-bottom: 7px;
+
+        p {
+             font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            line-height: 18px;
+            color: #797979;
+            padding-left: 18px;
+
+            img {
+                width: 16px;
+                margin-top: -3px;
+                margin-right: 7px;
+            }
+        }
+    }
+
+    .course_access {
+        p {
+             font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 18px;
+            color: #797979;
+            margin: 0;
+            padding-left: 19px;
+
+            img {
+                width: 10px;
+                margin-top: -3px;
+                margin-right: 7px;
+                margin-left: 9px;
+            }
+        }
+    }
+}
+
+.dev_title {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding-left: 18px;
+
+    .dev_title_detail {
+        h5 {
+             font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #2E2E2E;
+            margin: 0;
+        }
+
+        p {
+             font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            font-weight: 400;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #797979;
+            margin: 0;
+        }
+    }
+}
+
+.student_enrolled {
+    .student_enrolled_detail {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding-left: 18px;
+
+        h5 {
+            margin: 0;
+             font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #2E2E2E;
+        }
+
+        .students_rating {
+            p {
+                margin: 0;
+                // font-family: 'Inter';
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 19px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #2E2E2E;
+
+                i {
+                    color: #FFD124;
+                }
+            }
+        }
+    }
+
+    button {
+        margin: 10px;
+        width: 90%;
+        height: 40px;
+        border-radius: 200px;
+        gap: 9.97px;
+        border: 1px solid #000000;
+        background-color: #FFD124;
+         font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #000000;
+        margin-left: 20px;
+    }
+}
+
+.course_content {
+    background-color: #f9f9f9;
+    padding-left: 20px;
+
+    h3 {
+         font-family: 'Inter', sans-serif;
+        font-size: 39px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #404040;
+        padding-top: 58px;
+        margin-bottom: 20px;
+    }
+
+    .career_roadmap_top_skills {
+        .row {
+            .col-2 {
+                .career_roadmap_border {
+                    border-left: 1px solid #C6C6C6;
+                    height: 272px;
+                    width: 10px;
+                    margin-left: 15px;
+                    margin-top: 17px;
+                }
+            }
+
+            .col-5 {
+                h5 {
+                     font-family: 'Inter', sans-serif;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 20px;
+                    letter-spacing: -0.03em;
+                    color: #404040;
+                    margin-bottom: 27px;
+                }
+
+                .accordion {
+                    margin-bottom: 18px;
+                    width: 647px;
+                    height: 42px;
+
+                    .accordion-item {
+                        border: none;
+                        border-radius: 8px;
+
+                        .accordion-button {
+                            background-color: #FFFFFF;
+
+                            h5 {
+                                 font-family: 'Inter', sans-serif;
+                                font-size: 16px;
+                                font-weight: 500;
+                                line-height: 26px;
+                                letter-spacing: -0.03em;
+                                text-align: left;
+                                color: #404040;
+                                margin: 0;
+                            }
+
+                            p {
+                                padding-left: 341px;
+                                margin: 0px 0;
+                                margin-top: 3px;
+                                 font-family: 'Inter', sans-serif;
+                                font-size: 13px;
+                                font-weight: 500;
+                                line-height: 16px;
+                                letter-spacing: 0em;
+                                text-align: left;
+                                color: #404040;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.carrer_opprtunity_box {
+    margin-left: 4%;
+    margin-bottom: 30px;
+}
+
+.entry_card_box {
+    display: flex;
+    gap: 10px;
+}
+
+.accordian-ancher {
+    width: 647px;
+    height: 42px;
+    background-color: #FFFFFF;
+    color: #404040;
+    border: none;
+    border-radius: 8px;
+     font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.accordian-ancher:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+.accordian-ancher:focus {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+.module_btn {
+    border: none;
+    width: 30px;
+    border-radius: 15px;
+    height: 25px;
+    background: #044AB4;
+    color: white;
+    position: relative;
+    left: -13px;
+}
+
+.module_box {
+    display: flex;
+}
+
+.module_box h6 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.accordion-heading-box {
+    margin-top: -15px;
+ }
+
+ .pyhthon_acordian {
+    display: flex;
+    width: 60%;
+    /* margin-bottom: 30px; */
+
+ }
+ .Program_Content .accordion-item {
+    width: 59%;
+ }
+
+ .pyhthon_acordian_item {
+    margin-bottom: 30px;
+    border-left: 1px dashed grey !important;
+    padding-left: 30px !important;
+ }
+
+
+.pyhthon_acordian_2 {
+    margin-top: 30px;
+}
+
+.pyhthon_acordian_box {
+    background: white;
+    border-radius: 10px;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.col_title{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Inter';
+}
+.col_title_2{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Inter';
+}
+
+.mobile_desc_box {
+    display: none;
+}
+
+.chevron_icon {
+    padding-left: 10px;
+}
+
+.why_us_section {
+    background-color: #E6EDF8;
+    width: 100%;
+}
+
+.why-us-header {
+    padding: 44px 77px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.why_us_page {
+    background-color: #ffffff
+}
+
+.why_us_text_heading {
+    position: relative;
+}
+
+.why_us_text {
+     font-family: 'Inter', sans-serif;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.why-us-underline {
+    position: relative;
+    left: 29%;
+    bottom: 66px;
+}
+
+.corosel-why-us {
+    width: 100%;
+    .owl-carousel .owl-stage-outer{
+        font-size: 14px;
+    }
+}
+
+.owl_image {
+    height: 170px;
+}
+.python__why_us_underline{
+    position: relative;
+    bottom: 7px;
+}
+.python__career_underline{
+    position: relative;
+    bottom: 6px;
+    left: 15%;
+}
+.bootcamp_slider_box{
+    width: 65%;
+    margin-left: 4%;
+}
+@media (min-device-width: 300px) and (max-device-width: 768px) {
+    .offer_button{
+    height: 30px !important;
+    border-radius: 0px 0px 12px 0px !important;
+
+    }
+    .Program_Content .accordion-item {
+        width: 100%;
+     }
+    .col_title{
+        font-size: 14px;
+    }
+    .course_details_text{
+        font-size: 13px;
+    }
+    .col_title_2{
+      display: none;
+    }
+    .python_bootcamp_carousel{
+        z-index: 0 !important;
+    }
+    .bootcamp_slider_box {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .what_our_students_are_saying_page .testimonial_card{
+        height: 310px;
+    }
+    .what_our_students_are_saying_page .testimonial_card1{
+        height: 310px;
+    }
+    .what_our_students_are_saying_page .testimonial_card2{
+        height: 310px;
+    }
+    .what_our_students_are_saying_page .testimonial_card3{
+        height: 310px;
+    }
+    .course_content h3 {
+        font-size: 25px;
+        line-height: 40px;
+        text-align: center;
+        padding-top: 58px;
+        margin-bottom: 0px;
+    }
+    .python__why_us_underline{
+        position: relative;
+        left: 34%;
+        width: 100px;
+        bottom: 5px;
+    }
+    .dev_name {
+        font-size: 13px !important;
+        line-height: 13px !important;
+    }
+
+    .dev_description {
+        font-size: 13px !important;
+        line-height: 16px !important;
+    }
+
+    .testimonial_card_desc {
+        font-size: 13px;
+    }
+
+    .what_our_students_are_saying_page .testimonial_card .card-body h5 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .owl_image {
+        height: 170px;
+    }
+
+    .corosel-why-us {
+        width: 100%;
+    }
+    .corosel_responsive{
+        z-index: 0 !important;
+    }
+
+    .why-us-underline {
+        position: absolute;
+        top: 28px;
+        width: 90px;
+        height: 10px;
+        left: 240px;
+    }
+
+    .why_us_text {
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .mbl_br {
+        display: none;
+    }
+
+    .why-us-header {
+        padding: 20px;
+    }
+
+    .mobile_desc_box {
+        display: flex;
+        justify-content: center;
+        gap: 5px
+    }
+
+    .dot-icon {
+        color: grey;
+    }
+
+    .pyhthon_acordian {
+        width: 100%;
+    }
+
+    .course_content h1 {
+        font-size: 25px;
+        line-height: 48px;
+        text-align: center;
+        padding-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    .industry_recognised_certificate_page .industry_recognised_certificate_text img {
+        top: 92px;
+        left: 129px;
+    }
+
+    .industry_recognised_certificate_page .industry_recognised_certificate_text {
+        padding: 35px 0;
+    }
+
+    .industry_recognised_certificate_page .industry_recognised_certificate_text h5 {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .industry_recognised_certificate_page {
+        height: 430px;
+    }
+
+    .mbl-cmpny-logo {
+        margin-bottom: 30px;
+        width: 90%;
+    }
+
+    .ts-logo {
+        width: 120px !important;
+    }
+
+    .tickets-logo {
+        margin-top: 10px;
+    }
+
+    .maple-logo {
+        width: 80px !important;
+    }
+
+    .top_companies h2 {
+         font-family: 'Inter', sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        text-align: left;
+        padding-bottom: 33px;
+        padding-top: 36px;
+    }
+
+    .carrer_underline {
+        position: absolute;
+        top: 30px;
+        left: 211px !important;
+    }
+
+    .career_opportunities_heading h4 {
+         font-family: 'Inter', sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .student_enrolled_detail h5 {
+         font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .student_enrolled {
+        padding: 0px 0px 20px;
+    }
+
+    .article_icon {
+        margin-left: 13px;
+    }
+
+    .watch_icon {
+        margin-right: 10px;
+    }
+
+    .complete_python_bootcamp_text {
+        position: relative;
+
+        h1 {
+            font-family: Lato;
+            font-size: 25px;
+            line-height: 30px;
+        }
+
+        p {
+            font-family: Lato;
+            line-height: 18px;
+            color: #737373;
+            font-size: 13px;
+        }
+
+    }
+
+    .students_rating_para {
+         font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        color: #2E2E2E;
+    }
+
+    .star_icon {
+        padding-right: 5px;
+        color: #FFD124;
+    }
+
+    .complete_python_bootcamp_head_mobile {
+        align-items: baseline;
+    }
+
+    .card_mobile_contaner {
+        padding-bottom: 36px;
+        border: none;
+    }
+
+    .bootcamp_time_btn {
+        padding: 7px 18px;
+        border-radius: 20px;
+        border: 1px solid #333333;
+         font-family: 'Inter', sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        color: #333333;
+    }
+
+    .complete_python_bootcamp_details .top_companies {
+        padding: 20px;
+    }
+
+    .entry_card {
+        margin-bottom: 10px;
+    }
+
+    .slide-title {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .offer_button_professional_crtificate_price_details .offer_button_professional_crtificate_price {
+        margin-top: 4px;
+        align-items: baseline;
+    }
+
+    .career_opportunities {
+        margin-left: 3%;
+    }
+
+    .complete_python_bootcamp_details {
+        background-color: #f9f9f9;
+        padding-bottom: 0px;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .mbl-tab-icon {
+        padding-right: 5px;
+    }
+
+    .mobile-image {
+        padding: 0px !important;
+    }
+
+    .what_our_students_are_saying_page .text_heading .heading h2 {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+
+    .choose_our_course_heading h3 {
+        font-size: 25px;
+        line-height: 28px;
+        text-align: center;
+        color: #252525;
+        margin-top: 30px;
+    }
+
+    .our-programe__courses_underline {
+        position: absolute;
+        right: 40%;
+        bottom: -13px;
+        width: 85px;
+        height: 12px;
+    }
+
+    .comprehensive_curriculum .comprehensive_curriculum_head h6 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .comprehensive_curriculum .comprehensive_curriculum_para p {
+        font-size: 13px;
+        line-height: 18px;
+        color: #797979;
+    }
+
+    .offer_button_professional_crtificate {
+        .card-title {
+             font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #2E2E2E;
+        }
+
+        .card-text {
+             font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #797979;
+        }
+    }
+
+    .offer_button_professional_crtificate_price_details {
+        .offer_button_professional_crtificate_price {
+            h3 {
+                 font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #2E2E2E;
+            }
+
+            .offer_button_professional_crtificate_price_discount {
+                p {
+                     font-family: 'Inter', sans-serif;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 19px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #A7A7A7;
+                }
+
+                button {
+                    width: 54px;
+                    height: 20px;
+                    padding: 4px, 8px, 4px, 8px;
+                    border-radius: 5px;
+                    gap: 8px;
+                     font-family: 'Inter', sans-serif;
+                    font-size: 10px;
+                    font-weight: 500;
+                    line-height: 12px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #2E2E2E;
+                }
+            }
+        }
+
+        .offer_days_left {
+            margin-top: 9px;
+            margin-left: 6px;
+
+            p {
+                 font-family: 'Inter', sans-serif;
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 15px;
+                letter-spacing: 0em;
+                text-align: center;
+            }
+        }
+    }
+
+    .course_includes {
+        h5 {
+            font-size: 16px;
+            font-weight: 700;
+            padding-left: 0px;
+        }
+
+        .course_hours {
+            p {
+                line-height: 18px;
+                padding-left: 0px;
+                padding-right: 5px;
+
+            }
+        }
+
+        .course_access {
+            p {
+                padding-left: 0px;
+
+            }
+        }
+    }
+
+    .complete_python_bootcamp_details {
+        .what_youll_learn_in_this_course {
+            padding: 0;
+            gap: 0;
+
+            .what_youll_learn_in_this_course_heading {
+                h5 {
+                     font-family: 'Inter', sans-serif;
+                    font-size: 25px;
+                    font-weight: 700;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                    color: #2E2E2E;
+                }
+
+                img {
+                    position: absolute;
+                    top: 29px;
+                    width: 83px;
+                    left: 222px;
+                }
+            }
+
+            .what_youll_learn_in_this_course_heading_items {
+                margin-top: 14px;
+                margin-bottom: 35px;
+
+                .what_youll_learn_in_this_course_list {
+                    p {
+                         font-family: 'Inter', sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        color: #404040;
+                    }
+                }
+            }
+        }
+    }
+}

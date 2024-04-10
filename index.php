@@ -1,0 +1,11 @@
+<?php include 'components/header.php';?>
+<?php include 'components/home/home_hero_section.php';?>
+<?php include 'components/home/home_in_demand_jobs_section.php';?>
+<?php include 'components/home/home_what_we_provide_section.php';?>
+<?php include 'components/home/home_our_student_section.php';?>
+<?php include 'components/home/home_in_demand_program_section.php';?>
+<?php include 'components/home/home_career_cards_section.php';?>
+<?php include 'components/home/home_testonomial_section.php';?>
+<?php include 'components/home/home_faqs_section.php';?>
+<?php include 'components/footer.php';?>
+<?php include 'components/home/home_inquiry_now.php';?>
